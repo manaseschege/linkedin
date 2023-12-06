@@ -1,0 +1,62 @@
+.connections-main {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #bbbbbb;
+  margin: 30px;
+  background-color: white;
+  border-radius: 10px;
+  .grid-child {
+    border: 1px solid #bbbbbb;
+    width: 250px;
+    height: 330px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    cursor: pointer;
+    img {
+      margin-top: 50px;
+      width: 150px;
+      height: 150px;
+      border: 50%;
+      object-fit: cover;
+    }
+    .name {
+      font-family: system-ui;
+      font-size: 16px;
+      font-weight: 600;
+    }
+    .headline {
+      margin-top: -15px;
+      font-family: system-ui;
+      font-weight: 400;
+    }
+    button {
+      width: 90%;
+      height: 40px;
+      position: absolute;
+      bottom: 10px;
+      cursor: pointer;
+      color: #004384;
+      border: #004384;
+      font-size: 16px;
+      font-family: system-ui;
+      border-radius: 30px;
+      font-weight: 600;
+      align-items: center;
+      gap: 10px;
+    }
+    button:hover {
+      border: 2px solid #004284;
+      background-color: #bbdefb;
+    }
+  }
+}
